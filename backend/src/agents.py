@@ -24,6 +24,11 @@ from src.prompts import CoT_prompt
 
 
 class ReActAgent(Workflow):
+    """
+    ReActAgent is a workflow that manages interactions with a language model (LLM) and tools,
+    processes user messages, and handles reasoning steps to generate responses.
+    """
+
     def __init__(
         self,
         *args: Any,
@@ -43,8 +48,13 @@ class ReActAgent(Workflow):
         self.output_parser = ReActOutputParser()
         self.sources = []
         self.max_reasoning_steps = max_reasoning_steps
+
     @step
     async def new_user_msg(self, ctx: Context, ev: StartEvent) -> PrepEvent:
+        """
+        Handles a new user message by clearing sources, storing the message in memory,
+        and resetting the current reasoning steps.
+        """
         # clear sources
         self.sources = []
 
@@ -60,6 +70,10 @@ class ReActAgent(Workflow):
 
     @step
     async def prepare_chat_history(self, ctx: Context, ev: PrepEvent) -> InputEvent:
+        """
+        Prepares the chat history and formats it for the LLM input by combining the chat history
+        with the current reasoning steps.
+        """
         # get chat history
         chat_history = self.memory.get()
         current_reasoning = await ctx.get("current_reasoning", default=[])
@@ -68,6 +82,14 @@ class ReActAgent(Workflow):
 
     @step
     async def handle_llm_input(self, ctx: Context, ev: InputEvent) -> Union[ToolCallEvent, StopEvent, PrepEvent]:
+        """
+        Handle the input from the LLM, parse the response, and determine the next step.
+
+        Depending on the parsed reasoning step, this method will:
+        - Stop if the reasoning is complete or if the maximum reasoning steps are reached.
+        - Call a tool if an action is required.
+        - Iterate again if no final response or tool call is determined.
+        """
         chat_history = ev.input
 
         response = await self.llm.achat(chat_history)
@@ -127,6 +149,12 @@ class ReActAgent(Workflow):
 
     @step
     async def handle_tool_calls(self, ctx: Context, ev: ToolCallEvent) -> PrepEvent:
+        """
+        Handle the tool calls specified in the ToolCallEvent.
+
+        This method retrieves the tools by their names and safely calls them with the provided arguments.
+        It appends the tool outputs or any errors encountered to the current reasoning steps.
+        """
         tool_calls = ev.tool_calls
         tools_by_name = {tool.metadata.get_name(): tool for tool in self.tools}
 
