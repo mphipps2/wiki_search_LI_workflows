@@ -23,10 +23,10 @@ OPENAI_API_KEY=<your_openai_api_key>
 ```bash
 /wiki_search/
 │
-├── backend/              # Backend (WebSocket) service
+├── backend/              # Backend service
 │   ├── src/              # Source code for the backend
 │   │   ├── __init__.py
-│   │   ├── main.py       # FastAPI app entry point
+│   │   ├── main.py       # Web socket server
 │   │   ├── agents.py     # Agent and workflow classes
 │   │   ├── tools.py      # Tools and function definitions
 │   │   ├── events.py     # Custom event classes
@@ -37,9 +37,18 @@ OPENAI_API_KEY=<your_openai_api_key>
 ├── tests/                # Unit and integration tests
 │   └── test_main.py      # Example test cases
 │
+├── images/               # Images for the README
+│   └── workflow_diagram.png  # Workflow diagram
+│
+├── data/                 # Data for the ReAct agent
+│   ├── eval_queries/     # Queries used for evaluation
+│   └── eval_results/     # Results from evaluation
+|
+├── client.py             # CLI for interacting with the ReAct agent (web socket client)
+├── eval.py               # RAGAS-based evaluation script for the ReAct agent (web socket client)
 ├── docker-compose.yaml   # Docker Compose file for the entire project
 ├── README.md             # Project description
-└── .env                  # Environment variables (API keys, etc.)
+└── .env                  # Environment variables (add OpenAI API key)
 ```
 
 ## Application Overview
