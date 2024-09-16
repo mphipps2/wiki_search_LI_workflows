@@ -130,8 +130,11 @@ The following diagram illustrates the ReAct agent workflow:
 
 ## Future Work
 
-- Integrate RAGAS evaluations into the Phoenix dashboard.
 - Find a workaround for the PageErrors returned by Wikipedia's search (recently edited pages not yet fully indexed in API) -- results in poor performance on current events. 
+- Use RAGAS' synethetic data generation to create more out-of-distribution test data
+- Current evaluations are end-to-end response evaluations. Build in more component-specific evaluation to the CoT process.
+- Integrate RAGAS evaluations into the Phoenix dashboard.
+- Leverage Phoenix traceability to create feedback loop: new training and evaluation datasets based off of interesting traces from Phoenix UI.
 - Late chunking and semantic search of Wikipedia content to reduce token usage and costs.
 - Guardrails on inputs and outputs.
 - Explore OpenAI's o1 performance and methods of adapting inference based CoT prompting when using these models.
