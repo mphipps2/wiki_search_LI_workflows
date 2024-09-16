@@ -20,6 +20,7 @@ OPENAI_API_KEY=<your_openai_api_key>
 
 ## Project Structure
 
+```bash
 /wiki_search/
 │
 ├── backend/              # Backend (WebSocket) service
@@ -39,7 +40,7 @@ OPENAI_API_KEY=<your_openai_api_key>
 ├── docker-compose.yaml   # Docker Compose file for the entire project
 ├── README.md             # Project description
 └── .env                  # Environment variables (API keys, etc.)
-
+```
 
 ## Application Overview
 
