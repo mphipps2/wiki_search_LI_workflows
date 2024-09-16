@@ -1,0 +1,111 @@
+faithfulness,answer_relevancy,question,response
+1.0,0.886,Who is the president?,"The current president of the United States is Joe Biden, who assumed office on January 20, 2021."
+0.0,0.0,Who scored the most goals in the European Champion's League in 2020?,"Sorry, I couldn't find the answer to that."
+,0.98,articles similar to the article on 'Philosophy'?,"Here are some articles similar to the article on 'Philosophy':
+
+1. [Western philosophy](https://en.wikipedia.org/wiki/Western_philosophy)
+2. [Contemporary philosophy](https://en.wikipedia.org/wiki/Contemporary_philosophy)
+3. [Doctor of Philosophy](https://en.wikipedia.org/wiki/Doctor_of_Philosophy)
+4. [Hindu philosophy](https://en.wikipedia.org/wiki/Hindu_philosophy)
+5. [Political philosophy](https://en.wikipedia.org/wiki/Political_philosophy)
+6. [Analytic philosophy](https://en.wikipedia.org/wiki/Analytic_philosophy)
+7. [Chinese philosophy](https://en.wikipedia.org/wiki/Chinese_philosophy)
+8. [The Philosophy of 'As if'](https://en.wikipedia.org/wiki/The_Philosophy_of_%27As_if%27)
+9. [Marxist philosophy](https://en.wikipedia.org/wiki/Marxist_philosophy)
+10. [Epistemology](https://en.wikipedia.org/wiki/Epistemology)
+11. [Islamic philosophy](https://en.wikipedia.org/wiki/Islamic_philosophy)"
+1.0,0.862,the school of athens,"""The School of Athens"" is a fresco by the Italian Renaissance artist Raphael. It was painted between 1509 and 1511 as part of a commission by Pope Julius II to decorate the rooms now known as the Stanze di Raffaello in the Apostolic Palace in Vatican City. The fresco depicts a gathering of ancient philosophers, mathematicians, and scientists, with Plato and Aristotle prominently featured in the center. The painting is renowned for its accurate use of perspective and is considered one of Raphael's masterpieces, embodying the classical spirit of the Renaissance."
+0.833,0.856,css flex,"CSS Flexible Box Layout, commonly known as Flexbox, is a CSS web layout model that allows responsive elements within a container to be automatically arranged depending on the viewport size. It is designed to provide a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic.
+
+Key concepts of Flexbox include:
+
+1. **Flex Container**: The parent element that holds all flex items. It is defined using the CSS `display` property set to either `flex` or `inline-flex`.
+2. **Flex Item**: Any direct child element within the flex container.
+3. **Axes**: Each flex container has a main axis and a cross axis. The main axis is the primary axis along which flex items are laid out, and the cross axis is perpendicular to it.
+4. **Flex-direction**: Establishes the main axis direction (row, row-reverse, column, column-reverse).
+5. **Justify-content**: Aligns items along the main axis (left, right, center, space-between, space-around).
+6. **Align-items**: Aligns items along the cross axis.
+7. **Align-content**: Aligns lines of flex items along the cross axis.
+8. **Align-self**: Aligns a single item along the cross axis, overriding the `align-items` property.
+
+Flexbox is particularly useful for creating complex layouts with ease, such as centering items both vertically and horizontally within a container. It is widely supported by modern browsers, making it a reliable choice for responsive web design.
+
+For more detailed information, you can refer to the full article on [CSS Flexible Box Layout](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)."
+0.0,0.0,Who is the current Prime Minister?,Could you please specify the country for which you want to know the current Prime Minister?
+1.0,0.991,Who won the Nobel Prize in Literature in 2021?,"The Nobel Prize in Literature in 2021 was awarded to Abdulrazak Gurnah, a Tanzanian-born British novelist."
+0.333,0.939,articles like the one on 'Metaphysics',"I have found several articles related to 'Metaphysics'. Here are some of the most relevant ones:
+
+1. [Metaphysics](https://en.wikipedia.org/wiki/Metaphysics)
+2. [Metaphysics (Aristotle)](https://en.wikipedia.org/wiki/Metaphysics_(Aristotle))
+3. [Philosophy](https://en.wikipedia.org/wiki/Philosophy)
+4. [Universal (metaphysics)](https://en.wikipedia.org/wiki/Universal_(metaphysics))
+5. [History of metaphysics](https://en.wikipedia.org/wiki/History_of_metaphysics)
+6. [Groundwork of the Metaphysics of Morals](https://en.wikipedia.org/wiki/Groundwork_of_the_Metaphysics_of_Morals)
+7. [Metaphysics of presence](https://en.wikipedia.org/wiki/Metaphysics_of_presence)
+8. [Outline of metaphysics](https://en.wikipedia.org/wiki/Outline_of_metaphysics)
+9. [Sufi metaphysics](https://en.wikipedia.org/wiki/Sufi_metaphysics)
+
+These articles should provide a broad understanding of metaphysical concepts and related philosophical discussions."
+0.1,0.889,the theory of relativity,"The theory of relativity, developed by Albert Einstein, consists of two main theories: special relativity and general relativity.
+
+1. **Special Relativity**: Introduced in 1905, it deals with objects moving at constant speeds, particularly those moving close to the speed of light. It introduced the famous equation \(E = mc^2\), which shows the relationship between mass and energy. Key concepts include the relativity of simultaneity, time dilation, and length contraction.
+
+2. **General Relativity**: Published in 1915, it extends the principles of special relativity to include gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass and energy. This theory has been confirmed by many experiments and observations, such as the bending of light by gravity and the precise orbit of Mercury.
+
+Both theories have had profound implications for our understanding of space, time, and the universe."
+1.0,0.941,articles similar to 'Quantum Mechanics',"Here are some articles related to ""Quantum Mechanics"" that you might find interesting:
+
+1. [Quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics)
+2. [Interpretations of quantum mechanics](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics)
+3. [Introduction to quantum mechanics](https://en.wikipedia.org/wiki/Introduction_to_quantum_mechanics)
+4. [History of quantum mechanics](https://en.wikipedia.org/wiki/History_of_quantum_mechanics)
+5. [Applications of quantum mechanics](https://en.wikipedia.org/wiki/Applications_of_quantum_mechanics)
+6. [Measurement in quantum mechanics](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics)
+7. [Hamiltonian (quantum mechanics)](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics))
+8. [Relativistic quantum mechanics](https://en.wikipedia.org/wiki/Relativistic_quantum_mechanics)
+9. [Quantum superposition](https://en.wikipedia.org/wiki/Quantum_superposition)
+10. [Mathematical formulation of quantum mechanics](https://en.wikipedia.org/wiki/Mathematical_formulation_of_quantum_mechanics)
+11. [Many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation)
+12. [Relational quantum mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)
+13. [Expectation value (quantum mechanics)](https://en.wikipedia.org/wiki/Expectation_value_(quantum_mechanics))
+14. [Quantum mysticism](https://en.wikipedia.org/wiki/Quantum_mysticism)
+15. [Quantum statistical mechanics](https://en.wikipedia.org/wiki/Quantum_statistical_mechanics)
+
+These articles should provide a comprehensive overview and various perspectives on quantum mechanics."
+1.0,1.0,Who is the CEO of Tesla?,The CEO of Tesla is Elon Musk.
+1.0,0.952,articles related to 'Artificial Intelligence',"Here are some articles related to 'Artificial Intelligence':
+
+1. [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
+2. [Artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
+3. [A.I. Artificial Intelligence](https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence)
+4. [Artificial intelligence art](https://en.wikipedia.org/wiki/Artificial_intelligence_art)
+5. [Applications of artificial intelligence](https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence)
+6. [Ethics of artificial intelligence](https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence)
+7. [History of artificial intelligence](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
+8. [Hallucination (artificial intelligence)](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
+9. [Artificial intelligence in healthcare](https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare)
+10. [Artificial Intelligence Act](https://en.wikipedia.org/wiki/Artificial_Intelligence_Act)
+11. [Timeline of artificial intelligence](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)
+12. [Symbolic artificial intelligence](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)
+13. [Regulation of artificial intelligence](https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence)
+14. [Explainable artificial intelligence](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence)
+
+These articles cover various aspects of artificial intelligence, including its history, applications, ethics, and specific areas like healthcare and regulation."
+1.0,0.923,the history of the Roman Empire,"The history of the Roman Empire spans from the end of the Roman Republic in 27 BC to the fall of Constantinople in 1453 AD. It began with Augustus, the first emperor, who established the Principate. The Empire expanded significantly, reaching its zenith under Trajan. The Empire faced internal strife, economic troubles, and invasions, leading to the Crisis of the Third Century. Diocletian's reforms and the establishment of the Tetrarchy temporarily stabilized the Empire. Constantine the Great later unified the Empire and embraced Christianity. The Western Roman Empire fell in 476 AD, while the Eastern Roman Empire, known as the Byzantine Empire, continued until 1453 AD."
+1.0,0.975,Who discovered penicillin?,Penicillin was discovered by Scottish physician Alexander Fleming in 1928.
+1.0,0.942,articles like 'Renaissance Art',"Here are some articles related to 'Renaissance Art':
+
+1. [Renaissance art](https://en.wikipedia.org/wiki/Renaissance_art)
+2. [Renaissance](https://en.wikipedia.org/wiki/Renaissance)
+3. [Northern Renaissance](https://en.wikipedia.org/wiki/Northern_Renaissance)
+4. [Italian Renaissance](https://en.wikipedia.org/wiki/Italian_Renaissance)
+5. [Florentine Renaissance art](https://en.wikipedia.org/wiki/Florentine_Renaissance_art)
+6. [Italian Renaissance painting](https://en.wikipedia.org/wiki/Italian_Renaissance_painting)
+7. [High Renaissance](https://en.wikipedia.org/wiki/High_Renaissance)
+8. [Renaissance architecture](https://en.wikipedia.org/wiki/Renaissance_architecture)
+9. [French Renaissance](https://en.wikipedia.org/wiki/French_Renaissance)
+10. [English Renaissance](https://en.wikipedia.org/wiki/English_Renaissance)
+11. [German Renaissance](https://en.wikipedia.org/wiki/German_Renaissance)
+
+These articles should provide a comprehensive overview of various aspects of Renaissance art and its related movements."
+0.733,0.809,Average,

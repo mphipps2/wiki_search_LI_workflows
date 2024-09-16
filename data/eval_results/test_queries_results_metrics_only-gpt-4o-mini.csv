@@ -1,0 +1,65 @@
+faithfulness,answer_relevancy,question,response
+1.0,0.927,Who is the president?,"Joe Biden is the 46th and current president of the United States, having assumed office on January 20, 2021."
+0.0,0.951,Who scored the most goals in the European Champion's League in 2020?,"The top scorer of the 2020 UEFA Champions League was Erling Haaland, who scored 10 goals during the tournament."
+0.667,0.929,articles similar to the article on 'Philosophy'?,"I have found several articles related to the topic of 'Philosophy'. Here are some of them:
+
+1. [Philosophy](https://en.wikipedia.org/wiki/Philosophy)
+2. [Western philosophy](https://en.wikipedia.org/wiki/Western_philosophy)
+3. [Doctor of Philosophy](https://en.wikipedia.org/wiki/Doctor_of_Philosophy)
+4. [Political philosophy](https://en.wikipedia.org/wiki/Political_philosophy)
+5. [Analytic philosophy](https://en.wikipedia.org/wiki/Analytic_philosophy)
+6. [Contemporary philosophy](https://en.wikipedia.org/wiki/Contemporary_philosophy)
+7. [The Philosophy of 'As if'](https://en.wikipedia.org/wiki/The_Philosophy_of_%27As_if%27)
+8. [Marxist philosophy](https://en.wikipedia.org/wiki/Marxist_philosophy)
+9. [Epistemology](https://en.wikipedia.org/wiki/Epistemology)
+10. [Islamic philosophy](https://en.wikipedia.org/wiki/Islamic_philosophy)
+11. [Philosophy of science](https://en.wikipedia.org/wiki/Philosophy_of_science)
+
+These articles cover various aspects and branches of philosophy."
+1.0,0.862,the school of athens,"""The School of Athens"" (Italian: Scuola di Atene) is a famous fresco painted by the Italian Renaissance artist Raphael between 1509 and 1511. It was commissioned by Pope Julius II to decorate the Stanze di Raffaello in the Apostolic Palace in Vatican City. The fresco depicts a gathering of ancient philosophers, mathematicians, and scientists, with Plato and Aristotle at the center. 
+
+The painting is notable for its accurate perspective and embodies the classical spirit of the Renaissance. It features many identifiable figures, including Socrates, Pythagoras, and Archimedes, among others. Raphael also included a self-portrait in the fresco. The artwork is celebrated for its artistic mastery and philosophical themes, representing the rebirth of Ancient Greek philosophy in Europe.
+
+For more detailed information, you can visit the full article [here](https://en.wikipedia.org/wiki/The_School_of_Athens)."
+1.0,0.856,css flex,"CSS Flexible Box Layout, commonly known as Flexbox, is a CSS web layout model that allows responsive elements within a container to be automatically arranged based on the viewport size. It enables flexible and adaptive layouts, making it easier to design web pages that look good on various screen sizes.
+
+Key concepts of Flexbox include:
+- **Flex Container**: The parent element that holds all flex items, defined using the CSS display property as either `flex` or `inline-flex`.
+- **Flex Item**: Any direct child element within the flex container.
+- **Main and Cross Axes**: Flexbox has two axes; the main axis is where items align, and the cross axis is perpendicular to it.
+- **Flex-direction**: Determines the direction of the main axis (row, row-reverse, column, column-reverse).
+- **Justify-content**: Aligns items along the main axis.
+- **Align-items**: Aligns items along the cross axis.
+
+Flexbox is widely supported in modern browsers and is particularly useful for creating responsive web designs. For more detailed information, you can visit the full article [here](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)."
+1.0,0.934,Who is the current Prime Minister?,"The current Prime Minister of the United Kingdom is Keir Starmer, who has been in office since July 5, 2024."
+1.0,0.991,Who won the Nobel Prize in Literature in 2021?,"The Nobel Prize in Literature in 2021 was awarded to Abdulrazak Gurnah, a Tanzanian-born British novelist, for his profound exploration of the effects of colonialism and the plight of refugees."
+0.5,0.931,articles like the one on 'Metaphysics',"I have found several articles related to ""Metaphysics."" Here are some of them:
+
+1. [Metaphysics](https://en.wikipedia.org/wiki/Metaphysics)
+2. [Metaphysics (Aristotle)](https://en.wikipedia.org/wiki/Metaphysics_(Aristotle))
+3. [History of metaphysics](https://en.wikipedia.org/wiki/History_of_metaphysics)
+4. [Universal (metaphysics)](https://en.wikipedia.org/wiki/Universal_(metaphysics))
+5. [Groundwork of the Metaphysics of Morals](https://en.wikipedia.org/wiki/Groundwork_of_the_Metaphysics_of_Morals)
+6. [Metaphysics of presence](https://en.wikipedia.org/wiki/Metaphysics_of_presence)
+7. [Sufi metaphysics](https://en.wikipedia.org/wiki/Sufi_metaphysics)
+
+These articles cover various aspects and branches of metaphysics. If you need more specific information or a summary of any of these articles, please let me know!"
+0.933,0.876,the theory of relativity,"The theory of relativity, developed by Albert Einstein in the early 20th century, consists of two main parts: special relativity and general relativity. 
+
+1. **Special Relativity** (1905): This theory addresses the physics of objects moving at constant speeds, particularly those moving close to the speed of light. It introduces the concept that the laws of physics are the same for all observers, regardless of their relative motion. A key result of special relativity is the equation E=mc², which expresses the equivalence of mass and energy.
+
+2. **General Relativity** (1915): This theory extends the principles of special relativity to include acceleration and gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass. Massive objects like planets and stars warp the fabric of spacetime, influencing the motion of other objects.
+
+The theory of relativity has been confirmed through numerous experiments and observations, fundamentally changing our understanding of space, time, and gravity."
+,,articles similar to 'Quantum Mechanics',
+1.0,1.0,Who is the CEO of Tesla?,The CEO of Tesla is Elon Musk.
+,,articles related to 'Artificial Intelligence',
+1.0,0.957,the history of the Roman Empire,"The history of the Roman Empire spans from 27 BC, marking the end of the Roman Republic, to AD 476 in the West and the fall of Constantinople in 1453 in the East. It began with Augustus, who established the Principate and initiated a period of expansion and consolidation. The empire experienced significant growth during the Julio-Claudian dynasty, followed by the Flavian and the Five Good Emperors, which were characterized by relative peace and prosperity.
+
+However, the empire faced crises, including the Crisis of the Third Century, which led to a division into Eastern and Western Roman Empires. Diocletian's reforms attempted to stabilize the empire, but the Western Roman Empire continued to decline due to internal strife and external invasions, culminating in the abdication of Romulus Augustulus in 476.
+
+The Eastern Roman Empire, known as the Byzantine Empire, persisted until 1453. The Roman Empire's legacy includes its contributions to law, governance, architecture, and culture, which have had a lasting impact on Western civilization. For more detailed information, you can visit the full article [here](https://en.wikipedia.org/wiki/History_of_the_Roman_Empire)."
+1.0,0.975,Who discovered penicillin?,"Penicillin was discovered by Scottish physician Alexander Fleming in 1928 while he was working at St Mary's Hospital in London. He observed that a mold, later identified as Penicillium rubens, produced a substance that inhibited bacterial growth. Fleming's discovery was further developed by a team of scientists at the University of Oxford, led by Howard Florey, who worked on extracting and purifying penicillin, leading to its mass production and use in medicine. Fleming, Florey, and Ernst Chain were awarded the Nobel Prize in Physiology or Medicine in 1945 for their contributions to the discovery and development of penicillin."
+1.0,0.895,articles like 'Renaissance Art',"Renaissance art refers to the painting, sculpture, and decorative arts of the Renaissance period in Europe, which lasted from approximately 1350 to 1620. It began in Italy around 1400 and was characterized by a revival of classical antiquity, incorporating new techniques and ideas from Northern Europe. This art movement marked a significant transition from the medieval period to the Early Modern age, emphasizing humanism, nature, and individualism. Notable artists from this period include Leonardo da Vinci, Michelangelo, and Raphael. For more detailed information, you can visit the full article on [Renaissance art](https://en.wikipedia.org/wiki/Renaissance_art)."
+0.854,0.93,Average,

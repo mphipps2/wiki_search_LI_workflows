@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    ports:
+      - "6006:6006"  # UI and OTLP HTTP collector
+      - "4317:4317"  # OTLP gRPC collector
+    restart: unless-stopped
+
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - COLLECTOR_ENDPOINT=http://phoenix:6006/v1/traces
+      - PROD_CORS_ORIGIN=http://localhost:3000
+      # Set INSTRUMENT_LLAMA_INDEX=false to disable instrumentation
+      - INSTRUMENT_LLAMA_INDEX=true
+
+
+
